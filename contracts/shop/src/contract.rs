@@ -16,13 +16,6 @@ use crate::products::{
 use crate::state::{State, STATE};
 use crate::token::{query_token_balance, execute_transfer, execute_transfer_from};
 
-// use cw20_base::allowances::execute_transfer_from as cw20_transfer_from;
-// use cw20_base::contract::{
-//     execute as cw20_execute, execute_burn, execute_mint, execute_send,
-//     execute_transfer as cw20_execute_transfer, query as cw20_query, query_balance,
-// };
-// use cw20_base::state::{MinterData, TokenInfo, TOKEN_INFO};
-
 // version info for migration info
 const CONTRACT_NAME: &str = "crates.io:shop";
 const CONTRACT_VERSION: &str = env!("CARGO_PKG_VERSION");
